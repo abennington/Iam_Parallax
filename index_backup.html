@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/AB_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" href="styles/reset.css">	
+		<link type="text/css" rel="stylesheet" href="styles/style.css">	
+		<link type="text/css" rel="stylesheet" href="styles/main.css" />
+		<link type="text/css" rel="stylesheet" href="styles/colorbox.css" />
+		<link type="text/css" rel="stylesheet" href="styles/accordion_2.css" />
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin" />
+		<style>
+		
+		
+		</style>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="styles/js/jquery.colorbox.js"></script>
+		<script src="styles/js/script.js"></script>
+		<script> 
+		
+		
+			$(document).ready(function(){	
+				//Colorbox class elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+				
+			});
+			
+			  function openWindow(window_src)
+			  {
+				window.open(window_src, 'newwindow', config='height=600,width=1000,toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, directories=no, status=1');
+			  }
+		</script>
+		
+		<title>Andrew Bennington's Columbia Site</title>
+	</head>	
+		
+<body>
+	<div id="h1-1">
+		<div class="nav">
+			<div id="nav-background">
+			<h2>Contact Me</h2>
+				<ul>
+				<li><a href="http://on.fb.me/17Qc7Ea" target="new">Facebook
+					&nbsp;<img src="images/tablet_aal_05.jpg"  />
+				</a></li>
+			
+				<li><a href="http://bit.ly/17WHfQx" target="new">Twitter
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/tablet_aal_06.jpg" />
+				</a></li>
+	
+				<li><a href="http://linkd.in/18PWM4I" target="new">LinkedIn
+				&nbsp;&nbsp;&nbsp;<img src="images/linkedin-logo.jpg" />
+				</a></li>
+	
+				<li><a href="mailto:andrew.bennington@loop.colum.edu">Email Me
+				&nbsp;&nbsp;<img src="images/Email-icon-square.jpg" />
+				</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- Section #1 -->
+	<section id="chicago-skyline" data-speed="10" data-type="background">
+	<div class="index-1">
+	<div class="index-1-content">
+	<a href="#" style="text-decoration: none;" onclick="openWindow('site.html')"><h1>Click Here to Enter</h1></a>
+	</div>
+	</div>
+	</section>
+<!-- End Section #1 -->
+
+<!-- End right side -->	
+	<div id="contact-info">
+	<div class="clear">&nbsp;</div>
+	</div>
+<footer>
+</footer>	
+	
+	
+</body>
+</html>

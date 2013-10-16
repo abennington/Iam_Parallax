@@ -1,0 +1,234 @@
+			/*Round Images*/
+			.border-radius 
+			{
+			border : 1px;
+			border-radius: 150px;
+			box-shadow: 2px 2px 30px 2px #FFF
+			}
+			
+			.text-shadow 
+			{
+			te-shadow: 10px 10px 8px black;
+			}
+
+
+
+			/* Fixed Anchor Link CSS */
+				#fixed-top 
+				{
+				font-family: 'Cabin', Helvetica, Arial, sans-serif;
+				z-index: 103;
+				color: #fff;
+				font-size:16px;
+				text-decoration: none;
+				position:fixed; top:2%; left:2%;
+				background-color: transparent;
+				}
+				
+				#fixed-bottom 
+				{
+				font-family: 'Cabin', Helvetica, Arial, sans-serif;
+				z-index: 103;
+				color: #fff;
+				font-size:16px;
+				text-decoration: none;
+				position:fixed; bottom:2%; left:2%;
+				background-color: transparent;
+				}
+			/* End Fixed Anchor Link CSS */
+			
+			/* Body Styling */
+			body 
+			{
+			background-color: #000;
+			}
+			
+			h1
+			{
+			font-family: 'Lobster', Georgia, Times, serif;
+			font-size: 70px;
+			line-height: 80px;
+			color: #FFF;
+			}
+			
+			h2 
+			{
+			font-family: 'Cabin', Helvetica, Arial, sans-serif;
+			font-size: 20px;
+			line-height: 25px;
+			color: #FFFFFF;
+			}
+			
+			p 
+			{
+			font-family: 'Cabin', Helvetica, Arial, sans-serif;
+			font-size: 16px;
+			line-height: 25px;
+			color: #FFF;
+			}
+			/* End Body Styling */
+
+
+			/* Fixed Anchor Tag Nav */
+				#parallax-nav
+				{
+				font-size: 13px;
+				position:fixed; top:50%; left:2%;
+				top: 180px;
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				z-index: 103;
+				font-family: 'Cabin', Helvetica, Arial, sans-serif;
+				opacity:0.9;
+				}
+
+				#parallax-nav a:link,a:visited
+				{
+				display:block;
+				font-weight:bold;
+				color:#FFFFFF;
+				background-color:#98bf21;
+
+				width:90px;
+				text-align:center;
+				padding:3px;
+				text-decoration:none;
+				text-transform:uppercase;
+				}
+				#parallax-nav a:hover,a:active
+				{
+				background-color:#7A991A;
+				}
+			/* END Fixed Anchor Tag Nav */
+
+			/* Fixed Social Link CSS*/
+				#nav-background
+				{
+				z-index: 103;
+				}
+
+				.nav
+				{
+				background: url(../images/nav-background.png);
+				width: 120px;
+				position:fixed; top:2%; right:2%;
+				z-index: 103;
+				border-width:1px 0;
+				list-style:none;
+				margin:0 auto;
+				padding:0;
+				text-align:center;
+				}
+				
+				.nav li
+				{
+					text-align: left;
+					list-style: none;
+				}
+
+				.nav a
+				{
+				display:inline-block;
+				padding:3px;
+				color:#000;
+				font-size: 12px; 
+				text-decoration: none;
+				font-family: 'Cabin', Helvetica, Arial, sans-serif;
+				}
+			/* End Fixed Social Link CSS*/
+			
+			#homework-links a 
+			{
+			text-decoration: none;
+			}
+			
+			#email-link 
+			{
+			text-decoration: none;
+			}
+			
+			.clear
+			{
+			clear:both;
+			font-size:1px;
+			height:1px;
+			line-height:1px;
+			}
+
+			/* Index Page */
+				.index-1 
+				{
+				height: 600px;
+				width: 1000px;
+				margin: auto;
+	  			}
+	  			
+	  			.index-1-content 
+				{
+				margin: 0 auto;
+				padding-top: 200px;
+	  			padding-left: 250px;
+	  			}
+  			/* Index Page */
+			
+			/* Parallax Slide 1 */
+				.parallax-1 
+				{
+				width: auto;
+				margin: auto;
+				height: 1000px;
+	  			}
+	  			
+	  			.parallax-1-content 
+				{
+				z-index: 99;
+				margin: 0 auto;
+				width: 820px;
+				position:fixed; top:30%; left: 30%
+	  			}
+  			/* END Parallax Slide 1 */
+
+  			/* Parallax Slide 2 */
+				.parallax-2
+				{
+				width: auto;
+				height: 1000px;
+	  			}
+	  			
+	  			.parallax-2-content 
+				{
+				margin: 10px auto;
+				padding: 350px 0px 0px 270px;
+				width: 820px;
+	  			}
+  			/* END Parallax Slide 2 */
+
+			/* Parallax Slide 3 */
+				.parallax-3
+				{
+				width: auto;
+				height: 1000px;
+	  			}
+	  			
+	  			.parallax-3-content 
+				{
+				margin: 0 auto;
+				width: 820px;
+				padding: 350px 0px 0px 270px;
+	  			}
+  			/* END Parallax Slide 3 */
+
+			.left-slide
+			{
+			width: 500px;
+			float: left;
+			}
+			
+			.right-slide
+			{
+			width: 300px;
+			float: left;
+			margin: -235px 0px 0px 510px;
+			}
+

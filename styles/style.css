@@ -1,0 +1,130 @@
+/**
+ * Parallax Scrolling Tutorial
+ * For NetTuts+
+ *  
+ * Author: Mohiuddin Parekh
+ *	http://www.mohi.me
+ * 	@mohiuddinparekh   
+ */
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+
+#home { 
+	background: url(../images/slide-1.jpg) 50% 0 no-repeat fixed; 
+	height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about { 
+	background: url(../images/slide-2.jpg) 50% 0 no-repeat fixed; 
+	height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#chicago-skyline { 
+	background: url(../images/Chicago_Skyline_blur.jpg) 50% 0 no-repeat fixed;
+	height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#lolla { 
+    background: url(../images/Lollapalooza_Night1.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#lolla-crowd { 
+    background: url(../images/Lollapalooza_Night2_blur.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#city_slide_1 { 
+    background: url(../images/city_slide_1.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#city_slide_2 { 
+    z-index: 100;
+    background: url(../images/city_slide_2.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#city_slide_3 { 
+    z-index: 101;
+    background: url(../images/city_slide_3.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#city_slide_4 {
+    z-index: 102; 
+    background: url(../images/city_slide_4.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#city_slide_5 { 
+    background: url(../images/city_slide_5.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#city_slide_6 { 
+    background: url(../images/city_slide_6.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;  
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+

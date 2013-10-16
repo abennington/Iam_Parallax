@@ -1,0 +1,172 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/AB_favicon.ico" type="image/x-icon" />
+		<link type="text/css" rel="stylesheet" href="styles/reset.css">	
+		<link type="text/css" rel="stylesheet" href="styles/style.css">	
+		<link type="text/css" rel="stylesheet" href="styles/main.css" />
+		<link type="text/css" rel="stylesheet" href="styles/colorbox.css" />
+		<link type="text/css" rel="stylesheet" href="styles/accordion_2.css" />
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin" />
+		<style>
+		
+		
+		</style>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="styles/js/jquery.colorbox.js"></script>
+		<script src="styles/js/script.js"></script>
+		<script> 
+		
+		
+			$(document).ready(function(){	
+				//Colorbox class elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+				
+			});
+			
+			  function openWindow(window_src)
+			  {
+				window.open(window_src, 'newwindow', config='height=600,width=1000,toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, directories=no, status=1');
+			  }
+		</script>
+		
+		<!-- Jump to bottom buttom -->
+		<a id="fixed-top" href="#bottom-page">JUMP TO BOTTOM</a>
+		<a id="fixed-bottom" href="#top-page">JUMP TO TOP</a>
+		<!-- Jump to bottom buttom -->
+		<title>Andrew Bennington's Columbia Site</title>
+	</head>	
+		
+<body>
+	<div id="top-page">
+		<ul id="parallax-nav">
+			<li class=".slide-link"><a href="#city_slide_1">About Me</a></li>
+			<li class=".slide-link"><a href="#city_slide_2">My Homework</a></li>
+			<li class=".slide-link"><a href="#city_slide_3">Awesome Music</a></li>
+		</ul>
+		
+		<div class="nav">
+			<div id="nav-background">
+			<h2>Contact Me</h2>
+				<ul>
+				<li><a href="http://on.fb.me/17Qc7Ea" target="new">Facebook
+					&nbsp;<img src="images/tablet_aal_05.jpg"  /></a></li>
+				<li><a href="http://bit.ly/17WHfQx" target="new">Twitter
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/tablet_aal_06.jpg" /></a></li>
+				<li><a href="http://linkd.in/18PWM4I" target="new">LinkedIn
+				&nbsp;&nbsp;&nbsp;<img src="images/linkedin-logo.jpg" /></a></li>
+				<li><a href="mailto:andrew.bennington@loop.colum.edu">Email Me
+				&nbsp;&nbsp;<img src="images/Email-icon-square.jpg" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- Section #1 -->
+	<section id="city_slide_1" data-speed="7" data-type="background">
+	<div class="parallax-1">
+	<div class="parallax-1-content">
+	<h1>About Me</h1>
+			<div class="left-slide">
+				<p style="font:#FFF;">
+				My name is Andrew Bennington and I am originally from Michigan. I Moved to Chicago in 2009 my interests are sports, technology, beer and movies. My sports teams are of course still Detroit! I work at a digital ad agency called Digitas as a Sr. Tech Analyst. I enjoy ipa beer and love trying new kinds. I am glad to be in this class and very eager to learn responsive coding techniques.
+				</p>
+				<div class="clear">&nbsp;</div>
+			</div>
+		
+			<div class="right-slide">
+				<img class="border-radius" src="images/Selfie.jpg" width="249" height="249" alt="Andrew Bennington" />
+			</div>
+			
+
+	<div class="clear">&nbsp;</div>
+	</div>
+	</div>
+	</section>
+<!-- End Section #1 -->
+
+<!-- Section #2 -->
+	<section id="city_slide_2" data-speed="7" data-type="background">
+	 <div class="parallax-2">
+	<div class="parallax-2-content">
+	<h1>My Homework</h1>
+			<article class="accordion">
+				<div id="acc1">
+					<h2><a href="#acc1">Week Two</a></h2>
+						<p><a href="week2/starbuzz/index.html" target="new" style="color:#333333; text-decoration:none;">Starbuzz Coffee Beverages - Index</a></p>
+						<p><a href="week2/starbuzz/mission.html" target="new" style="color:#333333; text-decoration:none;">Starbuzz Coffee Beverage - Mission</a></p>
+						<p><a href="week2/crossword_puzzle.html" target="new" style="color:#333333; text-decoration:none;">Crossword Puzzle</a></p>
+				</div>
+				<div id="acc2">
+					<h2><a href="#acc2">Week Three</a></h2>
+						<p><a href="week3/lounge/lounge.html" target="new" style="color:#333333; text-decoration:none;">Elixir Exercises</a></p>
+						<p><a href="week3/segway/journal.html" target="new" style="color:#333333; text-decoration:none;">Segway Exercises</a></p>	
+				</div>
+				<div id="acc3">
+					<h2><a href="#acc3">Week Four</a></h2>
+						<p><a href="week4/lounge/lounge.html" target="new" style="color:#333333; text-decoration:none;">Lounge Exercises</a></p>
+				</div>
+				<div id="acc4">
+					<h2><a href="#acc4">Week Five</a></h2>
+						<p><a href="week4/lounge/lounge.html" target="new" style="color:#333333; text-decoration:none;">Lounge Exercises</a></p>
+				</div>
+				<div id="acc5">
+					<h2><a href="#hw-accordion">Collapse All</a></h2>
+				</div>
+			</article>
+	</div>			
+	</div>
+	</section>
+<!-- End Section #2 -->
+
+<!-- Section #3 -->
+	<section id="city_slide_3" data-speed="7" data-type="background">
+	<div class="parallax-3">
+	<div class="parallax-3-content">
+	<!-- Start of Music Video Code (Accordion Functionality) -->
+	<h1>Awesome Music</h1>
+			<h2 id="mv-accordion">Music Videos</h2>
+				<article class="accordion">
+					<div id="mv1">
+						<h2><a href="#mv1">Envy - Am I Wrong</a></h2>
+						<p><a class='youtube' href="http://youtube.com/embed/bg1sT4ILG0w"><img src="images/Envy_amiwrong.jpg" border="o" alt="" width="150" height="150" /></a></p>
+					</div>
+					<div id="mv2">
+						<h2><a href="#mv2">Emancipator - Minor Cause</a></h2>
+						<p><a class='youtube' href="http://youtube.com/embed/fULXi348-jI"><img src="images/Minor-Cause.jpg" border="o" alt="" width="150" height="150" /></a></p>
+					</div>
+					<div id="mv3">
+						<h2><a href="#mv-accordion">Collapse All</a></h2>
+					</div>
+				</article>
+	</div>
+	</div>
+</section>
+<!-- End Section #3 -->
+
+	<footer>
+		<div id="bottom-page"></div>
+	</footer>	
+
+</body>
+</html>

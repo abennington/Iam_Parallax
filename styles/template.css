@@ -1,0 +1,91 @@
+<style type="text/css">
+			
+		
+			
+			.column 
+			{
+				width: 30%
+				background-color: gray;
+			}
+			
+			#nav
+			{
+			margin-left: 15px;
+			}
+			
+	
+			
+			.box 
+			{
+				background-color: blue;
+				color: white;				
+			}
+			
+			#nav
+			{
+			margin-left: 15px;
+			}
+			
+			#bottom-page
+			{
+			margin-left: 15px;
+			}
+			
+			#homework-links a 
+			{
+			text-decoration: none;
+			}
+			
+			#top
+			{
+			width:1000px;
+			margin-bottom: 10px;
+			}
+			
+			#andrewimage 
+			{
+			margin-top: 10px;
+			}
+			
+			#email-link 
+			{
+			text-decoration: none;
+			}
+			
+			.clear
+			{
+			clear:both;
+			font-size:1px;
+			height:1px;
+			line-height:1px;
+			}
+	
+			#left-side
+			{
+			width: 500px;
+			margin-left: 15px;
+			float: left;
+			}
+			
+			#right-side
+			{
+			width: 500px;
+			float: left;
+			margin-left: 15px;
+			margin-right: 25px;
+			}
+			
+			#left-about-me
+			{
+			width: 250px;
+			float: left;
+			}
+			
+			#right-about-me
+			{
+			width: 160px;
+			float: left;
+			margin: 8px 0px 0px 10px;
+			}
+			
+</style>

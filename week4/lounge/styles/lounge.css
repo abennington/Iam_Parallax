@@ -1,0 +1,40 @@
+<style>
+ 	
+ 	body {
+ 	font-family: sans-serif;
+ 	}
+ 	
+ 	p {
+ 	color: maroon;
+ 	}
+ 	.greentea {
+  	color: green;
+  	}
+  	
+  	p.greentea {
+  	color: green;
+  	}
+  	
+  	p.raspberry {
+  	color: blue;
+  	}
+  	
+  	p.blueberry {
+  	color: purple;
+  	}  	
+  
+  	h1, h2  {
+  	color : gray;
+  	}
+  	
+  	h1 {
+  	border-bottom: 1 px solid black;
+  	}
+  	
+  	em {
+  	font-family: serif;
+  	}
+  	
+  	
+  	
+  </style>
